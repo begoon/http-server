@@ -15,8 +15,6 @@ or in the [web browser](http://localhost:8000/version).
 
 ## Used compilers and interpreters
 
-Everything is  on macOS 15.1 Sequoia.
-
 | language | version | source | run command |
 | --- | --- | --- | --- |
 | zig |  0.14.0 | [main.zig](./main.zig) | `make  zig` |
@@ -33,6 +31,8 @@ Everything is  on macOS 15.1 Sequoia.
 | freepascal | 3.2.2 | [main.pas](./main.pas) | `make fpc` |
 | lua |  5.4.7 | [main.lua](./main.lua) | `make lua` |
 | csharp/mono | 6.12.0 | [main.cs](./main.cs) |`make cs` |
+
+All implementations above are tested on macOS 15.1 Sequoia.
 
 ## Run client
 
