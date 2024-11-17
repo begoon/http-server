@@ -1,0 +1,8 @@
+target
+.build
+.venv
+.nuget
+__pycache__
+.bundle
+*.o
+main.exe
