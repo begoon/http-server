@@ -28,9 +28,10 @@ or in the [web browser](http://localhost:8000/version).
 | node |  23.1.0 | [main.js](./main.js) | `make node` |
 | php |  8.3.13 | [main.php](./main.php) | `make php` |
 | python |  3.13 | [main.py](./main.py) | `make python` |
-| freepascal | 3.2.2 | [main.pas](./main.pas) | `make fpc` |
+| pascal/fpc | 3.2.2 | [main.pas](./main.pas) | `make fpc` |
 | lua |  5.4.7 | [main.lua](./main.lua) | `make lua` |
-| csharp/mono | 6.12.0 | [main.cs](./main.cs) |`make cs` |
+| csharp/mono | 6.12.0 | [main.cs](./main.cs) | `make cs` |
+| perl | 5.34.1 | [main.pl](./main.pl) | `make perl` |
 
 All implementations above are tested on macOS 15.1 Sequoia.
 

@@ -51,6 +51,10 @@ cs:
 	-r:.nuget/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.dll main.cs
 	MONO_PATH=.nuget/Newtonsoft.Json.13.0.3/lib/net45 mono main.exe
 
+perl:
+	cpan Mojolicious
+	perl main.pl
+
 q:
 	curl -q http://localhost:8000/version
 
