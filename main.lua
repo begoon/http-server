@@ -9,7 +9,6 @@ local function handle_request(client)
     local request = client:receive("*l")
 
     if request then
-        -- Parse the request line (e.g., "GET /version HTTP/1.1")
         local method, path = request:match("^(%w+)%s(/%S*)%sHTTP/%d.%d")
 
         if method == "GET" and path == "/version" then
