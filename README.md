@@ -17,7 +17,7 @@ or in the [web browser](http://localhost:8000/version).
 
 | language | version | source | run command |
 | --- | --- | --- | --- |
-| zig |  0.14.0 | [main.zig](./main.zig) | `make  zig` |
+| zig |  0.14.0 | [main.zig](./main.zig) | `make zig` |
 | rustc |  1.82.0 | [main.rs](./main.rs) | `make rust` |
 | swift |  6.0 | [main.swift](./main.swift) | `make swift` |
 | go |  1.23 | [main.go](./main.go) | `make go` |
