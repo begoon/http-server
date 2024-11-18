@@ -13,7 +13,7 @@ class Version {
 
 Future<void> main() async {
   final server = await HttpServer.bind(InternetAddress.loopbackIPv4, 8000);
-  print('Server listening on localhost:${server.port}');
+  print('listening on localhost:${server.port}');
 
   final version = Version(version: '1.0.0');
 
