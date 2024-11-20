@@ -46,10 +46,7 @@ lua:
 	lua main.lua
 
 cs:
-	nuget install -OutputDirectory .nuget Newtonsoft.Json
-	mcs -r:System.Net.Http.dll \
-	-r:.nuget/Newtonsoft.Json.13.0.3/lib/net45/Newtonsoft.Json.dll main.cs
-	MONO_PATH=.nuget/Newtonsoft.Json.13.0.3/lib/net45 mono main.exe
+	dotnet run -c Release
 
 perl:
 	cpan Mojolicious
