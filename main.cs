@@ -1,5 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
-builder.Logging.ClearProviders(); // Remove noise
+builder.Logging.ClearProviders();
 
 var app = builder.Build();
 app.MapGet("/version", () => new { version = "1.0.0" });
