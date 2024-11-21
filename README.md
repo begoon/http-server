@@ -21,6 +21,7 @@ or in the [web browser](http://localhost:8000/version).
 | rustc |  1.82.0 | [main.rs](./main.rs) | `make rust` |
 | swift |  6.0 | [main.swift](./main.swift) | `make swift` |
 | go |  1.23 | [main.go](./main.go) | `make go` |
+| d/ldc | 1.40 | [main.d](./main.d) | `make d` |
 | ruby |  3.3.6 | [main.rb](./main.rb) | `make ruby` |
 | dart |  3.5.4 | [main.dart](./main.dart) | `make dart` |
 | deno |  2.0.6 | [main-deno.ts](./main-deno.ts) | `make deno` |

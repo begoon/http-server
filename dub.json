@@ -1,0 +1,7 @@
+{
+    "dependencies": {
+        "vibe-d": "~>0.10.1"
+    },
+    "name": "http-server",
+    "sourcePaths": ["./"]
+}

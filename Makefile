@@ -52,11 +52,14 @@ perl:
 	cpan Mojolicious
 	perl main.pl
 
+d:
+	dub
+
 q:
 	curl -q http://localhost:8000/version
 
 clean:
-	-rm -rf .build .venv .bundle exe _build .nuget main.exe main.o
+	-rm -rf .build .venv .bundle exe _build .nuget main.exe main.o http-server target
 	-find . -type d -name "__pycache__" -exec rm -r {} +
 	cargo clean
 
