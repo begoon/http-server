@@ -3,15 +3,15 @@ import PackageDescription
 
 let package = Package(
     name: "http-server",
+	 platforms: [.macOS(.v10_15)],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-nio.git", from: "2.0.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
     ],
     targets: [
         .executableTarget(
             name: "http-server",
             dependencies: [
-                .product(name: "NIO", package: "swift-nio"),
-                .product(name: "NIOHTTP1", package: "swift-nio"),
+                .product(name: "Vapor", package: "vapor"),
             ],
             path: ".",
             sources: ["main.swift"]
