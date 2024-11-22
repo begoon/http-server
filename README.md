@@ -39,3 +39,9 @@ All implementations above are tested on macOS 15.1 Sequoia.
 ## Run client
 
 `make q` or `curl -q http://localhost:8000/version`.
+
+## Contributions
+
+[C# version](./main.cs) is rewritten by [@neon-sunset](https://www.github.com/neon-sunset)
+
+[Swift version](./main.swift) is rewritten by [@Frizlab](https://www.github.com/Frizlab)
