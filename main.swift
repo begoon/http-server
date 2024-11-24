@@ -15,7 +15,7 @@ struct Main {
             try await app.execute()
             try await app.asyncShutdown()
         } catch {
-            print("got error: \(error)")
+            print("error: \(error)")
         }
     }
 }
