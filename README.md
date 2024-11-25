@@ -22,7 +22,7 @@ or in the [web browser](http://localhost:8000/version).
 | swift |  6.0 | vapor | [main.swift](./main.swift) | `make swift` |
 | go |  1.23 | built-in | [main.go](./main.go) | `make go` |
 | d/ldc | 1.40 | vibe | [main.d](./main.d) | `make d` |
-| ruby |  3.3.6 | sitatra | [main.rb](./main.rb) | `make ruby` |
+| ruby |  3.3.6 | sinatra | [main.rb](./main.rb) | `make ruby` |
 | dart |  3.5.4 | built-in | [main.dart](./main.dart) | `make dart` |
 | deno |  2.0.6 | built-in | [main-deno.ts](./main-deno.ts) | `make deno` |
 | bun |  1.1.34 | built-in | [main-bun.ts](./main-bun.ts) | `make bun` |
