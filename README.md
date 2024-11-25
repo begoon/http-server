@@ -16,7 +16,7 @@ or in the [web browser](http://localhost:8000/version).
 ## Used compilers and interpreters
 
 | language | version | framwork | source | run command |
-| --- | --- | --- | --- |
+| --- | --- | --- | --- | --- |
 | zig |  0.14.0 | built-in | [main.zig](./main.zig) | `make zig` |
 | rustc |  1.82.0 | warp | [main.rs](./main.rs) | `make rust` |
 | swift |  6.0 | vapor | [main.swift](./main.swift) | `make swift` |
