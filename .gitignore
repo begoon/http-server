@@ -8,3 +8,4 @@ main.exe
 /bin
 /obj
 http-server
+.zig-cache
