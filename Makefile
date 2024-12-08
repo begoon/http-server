@@ -55,6 +55,9 @@ perl:
 d:
 	dub
 
+v:
+	v run main.v
+
 q:
 	curl -q http://localhost:8000/version
 

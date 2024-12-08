@@ -21,6 +21,7 @@ or in the [web browser](http://localhost:8000/version).
 | rustc | 1.82.0 | warp | [main.rs](./main.rs) | `make rust` |
 | swift | 6.0 | vapor | [main.swift](./main.swift) | `make swift` |
 | go | 1.23 | - | [main.go](./main.go) | `make go` |
+| v | 0.4.8 | - | [main.v](./main.v) | `make v` |
 | d/ldc | 1.40 | vibe | [main.d](./main.d) | `make d` |
 | ruby | 3.3.6 | sinatra | [main.rb](./main.rb) | `make ruby` |
 | dart | 3.5.4 | - | [main.dart](./main.dart) | `make dart` |
