@@ -22,6 +22,7 @@ or in the [web browser](http://localhost:8000/version).
 | swift | 6.0 | vapor | [main.swift](./main.swift) | `make swift` |
 | go | 1.23 | - | [main.go](./main.go) | `make go` |
 | v | 0.4.8 | - | [main.v](./main.v) | `make v` |
+| assember | arm64 | macos/libc | [main.s](./main.s) | `make arm64` |
 | d/ldc | 1.40 | vibe | [main.d](./main.d) | `make d` |
 | ruby | 3.3.6 | sinatra | [main.rb](./main.rb) | `make ruby` |
 | dart | 3.5.4 | - | [main.dart](./main.dart) | `make dart` |
@@ -46,3 +47,5 @@ All implementations above are tested on macOS 15.1 Sequoia.
 [C# version](./main.cs) is rewritten by [@neon-sunset](https://www.github.com/neon-sunset)
 
 [Swift version](./main.swift) is rewritten by [@Frizlab](https://www.github.com/Frizlab)
+
+[arm64 assembly version](./main.as) is based on [@dmtrKovalenko](https://www.github.com/dmtrKovalenko)'s [macos-assembly-http-server](https://www.github.com/dmtrKovalenko/macos-assembly-http-server)

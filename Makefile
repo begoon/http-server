@@ -58,6 +58,18 @@ d:
 v:
 	v run main.v
 
+arm64:
+	as -o main.o main.s
+	ld -o main main.o \
+	-lSystem  \
+	-L /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/lib \
+	-syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk \
+	-arch arm64 \
+	-platform_version macos 15.0 15.0 \
+	-e _main \
+	-dynamic
+	./main
+
 q:
 	curl -q http://localhost:8000/version
 
