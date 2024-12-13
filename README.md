@@ -48,4 +48,4 @@ All implementations above are tested on macOS 15.1 Sequoia.
 
 [Swift version](./main.swift) is rewritten by [@Frizlab](https://www.github.com/Frizlab)
 
-[arm64 assembly version](./main.as) is based on [@dmtrKovalenko](https://www.github.com/dmtrKovalenko)'s [macos-assembly-http-server](https://www.github.com/dmtrKovalenko/macos-assembly-http-server)
+[arm64 assembly version](./main.s) is based on [@dmtrKovalenko](https://www.github.com/dmtrKovalenko)'s [macos-assembly-http-server](https://www.github.com/dmtrKovalenko/macos-assembly-http-server)
