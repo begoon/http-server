@@ -5,6 +5,7 @@ __pycache__
 .bundle
 *.o
 main.exe
+main.dwarf
 main
 /bin
 /obj

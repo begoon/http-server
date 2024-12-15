@@ -22,6 +22,7 @@ or in the [web browser](http://localhost:8000/version).
 | swift | 6.0 | vapor | [main.swift](./main.swift) | `make swift` |
 | go | 1.23 | - | [main.go](./main.go) | `make go` |
 | v | 0.4.8 | - | [main.v](./main.v) | `make v` |
+| crystal | 1.14.0 | - | [main.cr](./main.cr) | `make crystal` |
 | assember | arm64 | macos/libc | [main.s](./main.s) | `make arm64` |
 | d/ldc | 1.40 | vibe | [main.d](./main.d) | `make d` |
 | ruby | 3.3.6 | sinatra | [main.rb](./main.rb) | `make ruby` |

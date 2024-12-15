@@ -58,6 +58,9 @@ d:
 v:
 	v run main.v
 
+crystal:
+	crystal run main.cr
+
 arm64:
 	as -o main.o main.s
 	ld -o main main.o \
@@ -74,6 +77,6 @@ q:
 	curl -q http://localhost:8000/version
 
 clean:
-	-rm -rf .build .venv .bundle exe _build .nuget main.exe main.o main http-server target .zig-cache
+	-rm -rf .build .venv .bundle exe _build .nuget main.exe main.drarf main.o main http-server target .zig-cache
 	-find . -type d -name "__pycache__" -exec rm -r {} +
 	cargo clean
