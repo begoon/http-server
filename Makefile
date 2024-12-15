@@ -73,6 +73,9 @@ arm64:
 	-dynamic
 	./main
 
+nim:
+	nimble c -r main.nim
+
 q:
 	curl -q http://localhost:8000/version
 

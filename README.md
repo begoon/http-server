@@ -36,6 +36,7 @@ or in the [web browser](http://localhost:8000/version).
 | lua | 5.4.7 | copas | [main.lua](./main.lua) | `make lua` |
 | csharp/dotnet | 9.0.0 | - | [main.cs](./main.cs) | `make cs` |
 | perl | 5.34.1 | mojolicious | [main.pl](./main.pl) | `make perl` |
+| nim | 2.2.0 | httpbeast | [main.nim](./main.nim) | `make nim` |
 
 All implementations above are tested on macOS 15.1 Sequoia.
 
