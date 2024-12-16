@@ -37,6 +37,7 @@ or in the [web browser](http://localhost:8000/version).
 | csharp/dotnet | 9.0.0 | - | [main.cs](./main.cs) | `make cs` |
 | perl | 5.34.1 | mojolicious | [main.pl](./main.pl) | `make perl` |
 | nim | 2.2.0 | httpbeast | [main.nim](./main.nim) | `make nim` |
+| julia | 1.11.2 | HTTP | [main.jl](./main.jl) | `make julia` |
 
 All implementations above are tested on macOS 15.1 Sequoia.
 

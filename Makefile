@@ -76,6 +76,10 @@ arm64:
 nim:
 	nimble c -r main.nim
 
+julia:
+	julia pkg.jl
+	julia main.jl
+
 q:
 	curl -q http://localhost:8000/version
 
