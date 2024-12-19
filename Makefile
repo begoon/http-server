@@ -46,7 +46,10 @@ lua:
 	lua main.lua
 
 cs:
-	dotnet run -c Release
+	dotnet run main.cs
+
+fs:
+	dotnet run main.fs
 
 perl:
 	cpan Mojolicious

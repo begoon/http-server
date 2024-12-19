@@ -34,7 +34,8 @@ or in the [web browser](http://localhost:8000/version).
 | python | 3.13 | fastapi | [main.py](./main.py) | `make python` |
 | pascal/fpc | 3.2.2 | - | [main.pas](./main.pas) | `make fpc` |
 | lua | 5.4.7 | copas | [main.lua](./main.lua) | `make lua` |
-| csharp/dotnet | 9.0.0 | - | [main.cs](./main.cs) | `make cs` |
+| c#/dotnet | 9.0.0 | - | [main.cs](./main.cs) | `make cs` |
+| f#/dotnet | 9.0.0 | suave | [main.fs](./main.fs) | `make fs` |
 | perl | 5.34.1 | mojolicious | [main.pl](./main.pl) | `make perl` |
 | nim | 2.2.0 | httpbeast | [main.nim](./main.nim) | `make nim` |
 | julia | 1.11.2 | HTTP | [main.jl](./main.jl) | `make julia` |

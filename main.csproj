@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Suave" Version="2.6.2" />
+  </ItemGroup>
+
 </Project>
