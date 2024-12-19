@@ -87,6 +87,4 @@ q:
 	curl -q http://localhost:8000/version
 
 clean:
-	-rm -rf .build .venv .bundle exe _build .nuget main.exe main.drarf main.o main http-server target .zig-cache
-	-find . -type d -name "__pycache__" -exec rm -r {} +
-	cargo clean
+	git clean -dfx
